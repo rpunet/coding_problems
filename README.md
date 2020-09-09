@@ -5,7 +5,7 @@ LeetCode collection of problems and challenges in language C
 (C)
 *Compare two version numbers version1 and version2.*
 
-If version1 > version2 return 1; if version1 < version2 return -1;otherwise return 0.
+If version1 > version2 return 1; if version1 < version2 return -1; otherwise return 0.
 
 You may assume that the version strings are non-empty and contain only digits and the . character.
 
