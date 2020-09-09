@@ -16,10 +16,10 @@ Example 1:
 Input: version1 = "0.1", version2 = "1.1"
 Output: -1
 
-``Example 2:
+```Example 2:
 
 Input: version1 = "1.0.1", version2 = "1"
-Output: 1``
+Output: 1```
 
 Example 3:
 
