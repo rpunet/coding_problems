@@ -37,10 +37,11 @@ Example 5:
 
 Input: version1 = "1.0", version2 = "1.0.0"
 Output: 0
-Explanation: The first version number does not have a third level revision number, which means its third level revision number is default to "0" ```
-
+Explanation: The first version number does not have a third level revision number, which means its third level revision number is default to "0" 
+```
 
 **Note:**
 
 Version strings are composed of numeric strings separated by dots . and this numeric strings may have leading zeroes.
+
 Version strings do not start or end with dots, and they will not be two consecutive dots.
