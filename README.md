@@ -2,7 +2,9 @@
 LeetCode collection of problems and challenges in language C
 
 **COMPARE VERSION NUMBERS**
+
 (C)
+
 *Compare two version numbers version1 and version2.*
 
 If version1 > version2 return 1; if version1 < version2 return -1; otherwise return 0.
