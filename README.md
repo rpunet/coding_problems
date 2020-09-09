@@ -1,7 +1,7 @@
 # coding_problems
 LeetCode collection of problems and challenges in language C
 
-** 165 - COMPARE VERSION NUMBERS**
+**165 - COMPARE VERSION NUMBERS**
 
 (C)
 
