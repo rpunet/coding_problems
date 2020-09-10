@@ -1,7 +1,7 @@
-# coding_problems
+# CODING PROBLEMS
 LeetCode collection of problems and challenges in language C
 
-# **165 - COMPARE VERSION NUMBERS**
+# **165 - Compare Version Numbers**
 
 (C)
 
@@ -47,7 +47,7 @@ Version strings are composed of numeric strings separated by dots . and this num
 Version strings do not start or end with dots, and they will not be two consecutive dots.
 
 
-**299 - BULLS AND COWS**
+# **299 - Bulls and Cows**
 
 (C)
 
@@ -73,4 +73,5 @@ Output: "1A1B"
 
 Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 ```
-Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
+**Note:**
+You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
