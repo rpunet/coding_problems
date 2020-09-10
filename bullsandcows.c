@@ -36,11 +36,12 @@ char * getHint(char * secret, char * guess)
         }
         i++;
     }
+    b = b - a;
     i = 1;
     int j = 1;
-    b = b - a;
     int bull = a;
     int cow = b;
+    
     while (a > 9)
     {
         a = a / 10;
