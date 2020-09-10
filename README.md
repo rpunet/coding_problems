@@ -74,4 +74,5 @@ Output: "1A1B"
 Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 ```
 **Note:**
+
 You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
