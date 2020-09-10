@@ -41,6 +41,7 @@ char * getHint(char * secret, char * guess)
     int j = 1;
     int bull = a;
     int cow = b;
+    
     while (a > 9)
     {
         a = a / 10;
