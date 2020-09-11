@@ -76,3 +76,21 @@ Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 **Note:**
 
 You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
+
+
+# **152 - Maximum Product SubArray**
+
+(C)
+
+Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+``
+Example 1:
+
+Input: [2,3,-2,4]
+Output: 6
+Explanation: [2,3] has the largest product 6.
+Example 2:
+
+Input: [-2,0,-1]
+Output: 0
+Explanation: The result cannot be 2, because [-2,-1] is not a subarray.```
