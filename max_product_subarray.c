@@ -19,11 +19,11 @@ long		ft_max(long a, long b)
 
 int maxProduct(int* nums, int numsSize)
 {
-    int i = 0;
-    long max;
-    long start = 1;
-    long end = 1;
-    long temp;
+    int i;
+    int max;
+    int start = 1;
+    int end = 1;
+    int temp;
     
     i = 0;
     max = INT_MIN;
