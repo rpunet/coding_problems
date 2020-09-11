@@ -35,7 +35,7 @@ int maxProduct(int* nums, int numsSize)
         max = ft_max(max, temp);
         if (nums[i] == 0)
             start = 1;
-        if (nums[numsSize -1 - i] == 0)
+        if (nums[numsSize - 1 - i] == 0)
             end = 1;
         i++;
     }
