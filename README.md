@@ -141,11 +141,29 @@ Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 
 You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
 
+# **0421 - Maximum XOR of Two Numbers in an Array**
+
+(C)
+
+Given a non-empty array of numbers, a0, a1, a2, … , an-1, where 0 ≤ ai < 231.
+
+Find the maximum result of ai XOR aj, where 0 ≤ i, j < n.
+
+Could you do this in O(n) runtime?
+```
+Example:
+
+Input: [3, 10, 5, 25, 2, 8]
+
+Output: 28
+
+Explanation: The maximum result is 5 ^ 25 = 28.
+```
+
 # **0459 - Repeated Substring Pattern**
 
 (C)
 
-Solution
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
 ```
 Example 1:
