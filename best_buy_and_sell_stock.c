@@ -21,7 +21,7 @@ int maxProfit(int* prices, int pricesSize)
     
     while (i < pricesSize - 1)
     {
-        minpr = min(min_price, prices[i]);
+        min_price = min(min_price, prices[i]);
         prof = max(prof, prices[i + 1] - min_price);
         i++;
     }
