@@ -12,23 +12,26 @@ void    ft_backtrack(int **grid, int row, int col, int remain, int *counter, int
         return ;
     }
     temp = grid[row][col];
-    grid[row][col] = -4;
+    grid[row][col] = -1;
     remain -= 1;
     i = 0;
+    next_row = row;
+    next_col = col;
     while (i < 4)
     {
         if (i == 0)
-            next_row = row + 1;
+            next_row++;
         else if (i == 1)
-            next_row = row - 1;
+            next_row--;
         else if (i == 2)
-            next_col = col + 1;
+            next_col++;
         else if (i == 3)
-            next_col = col  -1;
-        if ((next_row >= 0 && next_row < nrows && next_col >= 0 && next_col < ncols) && (grid[next_row][next_col] >= 0))
-//            if (grid[next_row][next_col] >= 0)
+            next_col--;
+        if (next_row >= 0 && next_row < nrows && next_col >= 0 && next_col < ncols && grid[next_row][next_col] >= 0)
                 ft_backtrack(grid, next_row, next_col, remain, counter, nrows, ncols);
         i++;
+        next_row = row;
+        next_col = col;
     }
     grid[row][col] = temp;     
 }
@@ -70,4 +73,3 @@ int     uniquePathsIII(int** grid, int gridSize, int* gridColSize)
     ft_backtrack(grid, start_row, start_col, free_cells, &paths, nrows, ncols);
     return (paths);
 }
-
