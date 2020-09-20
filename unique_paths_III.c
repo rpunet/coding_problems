@@ -59,8 +59,6 @@ int     uniquePathsIII(int** grid, int gridSize, int* gridColSize)
     free_cells = 0;
     nrows = gridSize;
     ncols = *gridColSize;
-    start_row = 0;
-    start_col = 0;
     
     int i = 0;
     int j;
