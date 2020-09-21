@@ -314,10 +314,10 @@ Explanation:
 The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 ```
 Note:
-
+```
 1 <= instructions.length <= 100
 instructions[i] is in {'G', 'L', 'R'}
-
+```
 # **1094 - Car Pooling**
  
  (C)
