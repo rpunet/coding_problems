@@ -12,13 +12,14 @@
 
 bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity)
 {
-    int trip_cap[1001] = {0};
+    int trip_cap[1001];
     int i;
     int pick;
     
     i = 0;
-
-    
+    while (i < 1001)
+        trip_cap[i++] = 0;
+    i = 0;
     while (i < tripsSize)
     {
         pick = trips[i][1];
