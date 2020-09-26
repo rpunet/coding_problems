@@ -26,7 +26,7 @@ int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration)
         return (0);
     i = -1;
     tot = 0;
-    while (i++ < (timeSeriesSize - 2))
+    while (++i < (timeSeriesSize - 1))
         tot += ft_min(timeSeries[i + 1] - timeSeries[i], duration);
     return (tot + duration);
 }
