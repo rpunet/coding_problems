@@ -17,7 +17,6 @@ int numSubarrayProductLessThanK(int* nums, int numsSize, int k)
     int i;
     int j;
    
-    
     if (k == 0)
         return (0);
     prod = 1;
