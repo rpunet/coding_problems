@@ -1,6 +1,28 @@
 # CODING PROBLEMS
 LeetCode collection of problems and challenges in language C
 
+# **0041 - First Missing Positive**
+
+(C)
+
+Given an unsorted integer array, find the smallest missing positive integer.
+```
+Example 1:
+
+Input: [1,2,0]
+Output: 3
+Example 2:
+
+Input: [3,4,-1,1]
+Output: 2
+Example 3:
+
+Input: [7,8,9,11,12]
+Output: 1
+```
+**Follow up:**
+Your algorithm should run in O(n) time and uses constant extra space.
+
 # **0058 - Length of Last Word**
 
 (C)
@@ -17,7 +39,6 @@ Example:
 Input: "Hello World"
 Output: 5
 ```
-
 # **0121 - Best Time to Buy and Sell Stock**
 
 (C)
@@ -88,6 +109,34 @@ Travel to station 0. Your tank = 4 - 3 + 2 = 3
 Travel to station 1. Your tank = 3 - 3 + 3 = 3
 You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
 Therefore, you can't travel around the circuit once no matter where you start.
+```
+# **0139 - Word Break**
+
+(C)
+
+Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+
+**Note:**
+
+The same word in the dictionary may be reused multiple times in the segmentation.
+
+You may assume the dictionary does not contain duplicate words.
+```
+Example 1:
+
+Input: s = "leetcode", wordDict = ["leet", "code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+Example 2:
+
+Input: s = "applepenapple", wordDict = ["apple", "pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+             Note that you are allowed to reuse a dictionary word.
+Example 3:
+
+Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+Output: false
 ```
 # **0152 - Maximum Product SubArray**
 
