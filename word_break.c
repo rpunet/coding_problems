@@ -10,22 +10,43 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//_--------------------- Backtrack Recursive Solution O(n^2)--------------------------------------------_
+//_--------------------- Backtrack Recursive with Memoization Solution O(n^2)--------------------------------------------_
 
-bool    backtrack(char *s, char **wordDict, int start, int wordDictSize, int slen)
+int     *create_hash(int len)
 {
-    int j; 
+    int *ret;
+    int i;
+    
+    ret = malloc(sizeof(int) * len);
+    i = 0;
+    while (i < len)
+    {
+        ret[i] = 0;
+        i++;
+    }
+    return (ret);
+    
+}
+
+bool    backtrack(char *s, char **wordDict, int start, int wordDictSize, int slen, int i, int *hash)
+{
+    int j;
     
     j = 0;
     if (!*s)
         return (true);
+    else if (hash[i] == 1)
+        return (hash[i]);
     while (j < wordDictSize)
     {
         if (start == wordDictSize)
             start = 0;
         if (strncmp(s, wordDict[start], strlen(wordDict[start])) == 0)
-            if (backtrack(s + strlen(wordDict[start]), wordDict, start, wordDictSize, slen) == true)
+            if (backtrack(s + strlen(wordDict[start]), wordDict, start, wordDictSize, slen, i + strlen(wordDict[start]), hash) == true)
+            {
+                hash[i] == 1;
                 return (true);
+            }
         start++;
        
         j++; 
@@ -38,16 +59,17 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize)
     int     i;
     int     j;
     int     slen;
-    char    *temp;
-
-    temp = s;
+    int     *hash;
+    
     slen = strlen(s);
+    hash = create_hash(slen);
     i = 0;
-    while (i < wordDictSize)
+    j = 0;
+    while (j < wordDictSize)
     {
-        if (backtrack(s, wordDict, i, wordDictSize, slen) == true)
+        if (backtrack(s, wordDict, j, wordDictSize, slen, i, hash) == true)
             return (true);
-        i++;
+        j++;
     }
     return (false);
 }
