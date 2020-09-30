@@ -20,12 +20,8 @@ int     *create_hash(int len)
     ret = malloc(sizeof(int) * len);
     i = 0;
     while (i < len)
-    {
-        ret[i] = 0;
-        i++;
-    }
+        ret[i++] = 0;
     return (ret);
-    
 }
 
 bool    backtrack(char *s, char **wordDict, int start, int wordDictSize, int slen, int i, int *hash)
