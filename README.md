@@ -1,7 +1,7 @@
 # CODING PROBLEMS
 LeetCode collection of problems and challenges in language C
 
-# **0041 - First Missing Positive**
+## **0041 - First Missing Positive**
 
 (C)
 
@@ -23,7 +23,7 @@ Output: 1
 **Follow up:**
 Your algorithm should run in O(n) time and uses constant extra space.
 
-# **0058 - Length of Last Word**
+## **0058 - Length of Last Word**
 
 (C)
 
@@ -39,7 +39,7 @@ Example:
 Input: "Hello World"
 Output: 5
 ```
-# **0121 - Best Time to Buy and Sell Stock**
+## **0121 - Best Time to Buy and Sell Stock**
 
 (C)
 
@@ -62,7 +62,7 @@ Input: [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
-# **0134 - Gas Station**
+## **0134 - Gas Station**
 
 (C)
 
@@ -110,7 +110,7 @@ Travel to station 1. Your tank = 3 - 3 + 3 = 3
 You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
 Therefore, you can't travel around the circuit once no matter where you start.
 ```
-# **0139 - Word Break**
+## **0139 - Word Break**
 
 (C)
 
@@ -138,7 +138,7 @@ Example 3:
 Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 ```
-# **0152 - Maximum Product SubArray**
+## **0152 - Maximum Product SubArray**
 
 (C)
 
@@ -156,7 +156,7 @@ Input: [-2,0,-1]
 Output: 0
 Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 ```
-# **0165 - Compare Version Numbers**
+## **0165 - Compare Version Numbers**
 
 (C)
 
@@ -201,7 +201,7 @@ Version strings are composed of numeric strings separated by dots . and this num
 
 Version strings do not start or end with dots, and they will not be two consecutive dots.
 
-# **0179 - Largest Number**
+## **0179 - Largest Number**
 
 (C)
 
@@ -219,7 +219,7 @@ Output: "9534330"
 ```
 **Note:** The result may be very large, so you need to return a string instead of an integer.
 
-# **0198 - House Robbers**
+## **0198 - House Robbers**
 
 (C)
 
@@ -247,7 +247,7 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 0 <= nums.length <= 100
 0 <= nums[i] <= 400
 ```
-# **0229 - Majority Element II**
+## **0229 - Majority Element II**
 
 (C)
 
@@ -265,7 +265,7 @@ Input: [1,1,1,3,3,2,2,2]
 Output: [1,2]
 ```
 
-# **0299 - Bulls and Cows**
+## **0299 - Bulls and Cows**
 
 (C)
 
@@ -295,7 +295,7 @@ Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 
 You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
 
-# **0389 - Find the Difference**
+## **0389 - Find the Difference**
 
 (C)
 
@@ -318,7 +318,7 @@ Explanation:
 'e' is the letter that was added.
 ```
 
-# **0399 - Evaluate Division**
+## **0399 - Evaluate Division**
 
 (C)
 
@@ -363,7 +363,7 @@ queries[i].length == 2
 
 equations[i][0], equations[i][1], queries[i][0], queries[i][1] consist of low
 
-# **0421 - Maximum XOR of Two Numbers in an Array**
+## **0421 - Maximum XOR of Two Numbers in an Array**
 
 (C)
 
@@ -382,7 +382,7 @@ Output: 28
 Explanation: The maximum result is 5 ^ 25 = 28.
 ```
 
-# **0459 - Repeated Substring Pattern**
+## **0459 - Repeated Substring Pattern**
 
 (C)
 
@@ -403,7 +403,7 @@ Input: "abcabcabcabc"
 Output: True
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 ```
-# **0495 - Teemo Attacking**
+## **0495 - Teemo Attacking**
 
 (C)
 
@@ -437,7 +437,7 @@ So you finally need to output 3.
 You may assume the length of given time series array won't exceed 10000.
 You may assume the numbers in the Teemo's attacking time series and his poisoning time duration per attacking are non-negative integers, which won't exceed 10,000,000.
 
-# **0713 - Subarray Product Less Than K**
+## **0713 - Subarray Product Less Than K**
  
  (C)
 
@@ -457,7 +457,7 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 0 < nums[i] < 1000.
 0 <= k < 10
 
-# **0949 - Largest Time for Given Digits**
+## **0949 - Largest Time for Given Digits**
  
  (C)
 
@@ -492,7 +492,7 @@ Output: "10:00"
 arr.length == 4
 0 <= arr[i] <= 9
 ```
-# **0980 - Unique Paths III**
+## **0980 - Unique Paths III**
  
  (C)
  
@@ -533,7 +533,7 @@ Note that the starting and ending square can be anywhere in the grid.
 1 <= grid.length * grid[0].length <= 20
 ```
 
-# **1041 - Robot Bounded In Circle**
+## **1041 - Robot Bounded In Circle**
  
  (C)
  
@@ -571,7 +571,7 @@ The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 1 <= instructions.length <= 100
 instructions[i] is in {'G', 'L', 'R'}
 ```
-# **1094 - Car Pooling**
+## **1094 - Car Pooling**
  
  (C)
  
@@ -607,7 +607,7 @@ trips[i].length == 3
 1 <= capacity <= 100000
 ``` 
  
-# **1291 - Sequential Digits**
+## **1291 - Sequential Digits**
  
 (C)
 
