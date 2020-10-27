@@ -5,7 +5,7 @@ LeetCode collection of problems and challenges in language C
 
 (C)
 
-Given an unsorted integer array, find the smallest missing positive integer.
+Given an unsorted integer array, find the smallest missing positive integer. 
 ```
 Example 1:
 
